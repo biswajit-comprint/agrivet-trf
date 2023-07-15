@@ -1,0 +1,5 @@
+#404 error page
+ErrorDocument 404 http://localhost/web_project/nabl_trf/404.php
+
+#set your default page as the directory index using .htaccess file
+DirectoryIndex user_login.php

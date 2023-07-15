@@ -1,0 +1,19 @@
+
+.flex{
+    display: flex !important;
+}
+.icon-bg-hover-shadow{
+    padding: 12px;
+    background: #ffffff00;
+    border-radius: 50px;
+    transition: .5s all;
+    &:hover{
+        background: #e8e8e8;
+        transition: .5s all;
+        cursor: pointer;
+    }
+}
+
+.table-bordered th, .table-bordered td {
+    vertical-align: baseline;
+}
