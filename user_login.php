@@ -22,17 +22,17 @@
             <main class="login">
                 <div class="login__col">
                     <header class="login__brand">Agrivet Research & Advisory</header>
-                    <form class="login__form" method="post" action="">
+                    <form class="login__form" id="login__form" method="post" action="">
                         <div class="login__form-wrapper">
                             <h1>Welcome Login</h1>
                             <p>Sign in to user account.</p>
                             <div class="login__field-group">
-                                <label class="login__label" for="user-email">Username or Email</label>
-                                <input class="login__field" id="user-email" type="text" name="user_email" />
+                                <label class="login__label" for="user_email">Username or Email</label>
+                                <input class="login__field" id="user_email" type="text" name="user_email" autocomplete="" >
                             </div>
                             <div class="login__field-group">
-                                <label class="login__label" for="pass">Password</label>
-                                <input class="login__field" id="pass" type="password" name="pass" />
+                                <label class="login__label" for="user_pass">Password</label>
+                                <input class="login__field" id="user_pass" type="password" name="user_pass" autocomplete="">
                             </div>
                             <div class="login__field-group login__field-group--horz">
                                 <label class="login__label login__label--horz">
@@ -66,7 +66,8 @@
 
 
         <!-- Bootstrap core JavaScript-->
-        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
         <!-- Core plugin JavaScript-->
@@ -83,6 +84,6 @@
         <script src="assets/js/demo/chart-pie-demo.js"></script>
 
         <!-- index page custom scripts -->
-        <script src="assets/js/page-index.js"></script>
+        <script src="assets/js/page-index.js" type="application/javascript"></script>
     </body>
 </html>
